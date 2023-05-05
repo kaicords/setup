@@ -6,6 +6,7 @@ import LoginScreen from './screens/LoginScreen';
 import HomeScreen from './screens/HomeScreen';
 import UserInfo from './screens/UserInfo';
 import Matchmaking from './screens/Matchmaking';
+import AddContacts from './screens/Contacts';
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -16,7 +17,7 @@ export default function App() {
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Info" component={UserInfo} />
         <Stack.Screen name="Match" component={Matchmaking} />
-        <Stack.Screen name="Contacts" component={Contacts} />
+        <Stack.Screen name="Contacts" component={AddContacts} />
       </Stack.Navigator>
     </NavigationContainer>
   );
