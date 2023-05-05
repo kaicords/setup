@@ -12,7 +12,7 @@ const AddContacts = () => {
             const {status} = await Contacts.requestPermissionsAsync();
             if (status === "granted") {
                 const {data} = await Contacts.getContactsAsync({
-                    fields: [Contacts.Fields.FirstName, Contacts.Fields.LastName, Contacts.Fields.PhoneNumbers[0]]
+                    fields: [Contacts.Fields.Name, Contacts.Fields.FirstName, Contacts.Fields.LastName, Contacts.Fields.PhoneNumbers[0]]
                 });
                 if (data.length > 0) {
                     console.log(data);
