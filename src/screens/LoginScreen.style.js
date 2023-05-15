@@ -1,9 +1,9 @@
 import { StyleSheet } from "react-native";
-import { COLORS } from "../constants/theme";
+import { COLORS, FONT } from "../constants/theme";
 export default StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "flex-end",
+    justifyContent: "center",
     alignItems: "center",
     backgroundColor: COLORS.black,
   },
@@ -11,6 +11,7 @@ export default StyleSheet.create({
   textLogo: {
     color: "#fff",
     fontSize: 128,
+    fontFamily: FONT.logoFont,
   },
   inputContainer: {
     width: "80%",

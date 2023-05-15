@@ -1,9 +1,10 @@
 const COLORS = {
   black: "#000",
+  button: "#D9D9D9",
 };
 
 const FONT = {
-  logo: "Lobster",
+  logoFont: "LobsterReg",
 };
 
 const SIZES = {};

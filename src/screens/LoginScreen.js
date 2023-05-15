@@ -2,7 +2,6 @@ import { useNavigation } from "@react-navigation/core";
 import React, { useEffect, useState } from "react";
 import {
   KeyboardAvoidingView,
-  StyleSheet,
   Text,
   TextInput,
   TouchableOpacity,
