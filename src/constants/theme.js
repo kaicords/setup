@@ -1,4 +1,6 @@
-const COLORS = {};
+const COLORS = {
+  black: "#000",
+};
 
 const FONT = {
   logo: "Lobster",
