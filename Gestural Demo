@@ -1,0 +1,56 @@
+//
+//  ContentView.swift
+//  SetupGestures
+//
+//  Created by Kai Ssempa on 5/2/23.
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack(spacing: 15) {
+            HStack {Text("Setup")
+                    .font(.largeTitle.bold())
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.horizontal, 15)
+            }
+            Spacer()
+            HStack(spacing: 10) {
+                List {
+                    VStack {
+                        RoundedRectangle(cornerRadius: 20)
+                            .frame(width: 190, height: 225)
+                        RoundedRectangle(cornerRadius: 20)
+                            .frame(width: 190, height: 225)
+                        RoundedRectangle(cornerRadius: 20)
+                            .frame(width: 190, height: 225)
+                        RoundedRectangle(cornerRadius: 20)
+                            .frame(width: 190, height: 225)
+                        RoundedRectangle(cornerRadius: 20)
+                            .frame(width: 190, height: 225)
+                    }
+                };
+                List {
+                    VStack {
+                        RoundedRectangle(cornerRadius: 20)
+                            .frame(width: 190, height: 225)
+                        RoundedRectangle(cornerRadius: 20)
+                            .frame(width: 190, height: 225)
+                        RoundedRectangle(cornerRadius: 20)
+                            .frame(width: 190, height: 225)
+                        RoundedRectangle(cornerRadius: 20)
+                            .frame(width: 190, height: 225)
+                        RoundedRectangle(cornerRadius: 20)
+                            .frame(width: 190, height: 225)
+                    }
+                }
+            }
+        }
+    }
+}
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
