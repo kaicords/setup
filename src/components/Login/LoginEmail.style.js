@@ -5,22 +5,13 @@ export default StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#fff",
+    backgroundColor: COLORS.black,
   },
 
-  logoContainer: {
-    justifyContent: "center",
-    alignItems: "center",
-  },
   textLogo: {
-    color: COLORS.black,
-    fontSize: 96,
+    color: "#fff",
+    fontSize: 128,
     fontFamily: FONT.logoFont,
-  },
-  motto: {
-    marginTop: -8,
-    fontSize: 24,
-    fontFamily: FONT.mottoFont,
   },
   inputContainer: {
     width: "80%",
@@ -39,20 +30,16 @@ export default StyleSheet.create({
     marginTop: 40,
   },
   button: {
-    backgroundColor: "#D29F6C",
+    backgroundColor: "#0782F9",
     width: "100%",
     padding: 15,
     borderRadius: 10,
     alignItems: "center",
   },
-
-  secondaryBtn: {
-    backgroundColor: "#AEAEB2",
-  },
   buttonOutline: {
     backgroundColor: "white",
     marginTop: 5,
-    borderColor: "#AEAEB2",
+    borderColor: "#0782F9",
     borderWidth: 2,
   },
   buttonText: {
@@ -61,7 +48,7 @@ export default StyleSheet.create({
     fontSize: 16,
   },
   buttonOutlineText: {
-    color: "#fff",
+    color: "#0782F9",
     fontWeight: "700",
     fontSize: 16,
   },
